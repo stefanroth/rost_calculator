@@ -4,7 +4,6 @@ namespace Drupal\rost_calculator\Calculator;
 
 class Calculator
 {
-    protected $messageCenter;
     const MAX_EXECUTE_ORDER = 2;
 
     public function execute(string $input)
