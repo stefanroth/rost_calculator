@@ -16,7 +16,7 @@ class Calculator
         }
     }
 
-    public function parse(string $input) : array
+    private function parse(string $input) : array
     {
         $words = Number::orderedArray($input)
             + Plus::orderedArray($input)
@@ -29,7 +29,7 @@ class Calculator
         return array_values($words);
     }
 
-    public function calculateRecursively(array $elements, int $executeOrder)
+    private function calculateRecursively(array $elements, int $executeOrder)
     {
         for (; $executeOrder > 0; $executeOrder--) {
             for ($i = 0; $i < count($elements); $i++) {
