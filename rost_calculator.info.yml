@@ -1,0 +1,13 @@
+name: 'ROST Calculator'
+type: module
+description: 'Field formatter providing a basic calculator'
+package: Custom
+# core: 8.x
+dependencies:
+  - drupal:field
+  - drupal:views
+
+# Information added by Drupal.org packaging script on 2017-09-03
+version: '8.x'
+core: '8.x'
+project: 'rost_calculator'

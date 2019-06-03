@@ -1,0 +1,13 @@
+<?php
+function rost_calculator_theme()
+{
+    return [
+        'rost_calculator_formatter' => [
+            'variables' => [
+                'calculated_value' => null,
+                'markup' => null
+            ],
+            'template' => 'rost-calculator-formatter'
+        ]
+    ];
+}
